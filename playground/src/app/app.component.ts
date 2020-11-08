@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { createElementWhenDefined } from '@codeblaze/mfe-utils';
+import { createElementWhenDefined } from '@codeblaze/mfe-utils-core';
 
 @Component({
   selector: 'app-root',

@@ -1,5 +1,5 @@
 {
-  "name": "@codeblaze/mfe-utils",
+  "name": "@codeblaze/mfe-utils-core",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
