@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "build:watch": "tsc -w"
+    "build:watch": "tsc -w",
+    "prepack": "yarn run build",
+    "prepublish": "yarn run build"
   },
   "keywords": [],
   "author": "",
