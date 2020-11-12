@@ -17,7 +17,7 @@
       "dom"
     ],
     "paths": {
-      "@codeblaze/mfe-utils-core": ["../mfe-utils/core"]
+      "@codeblaze/mfe-utils-angular": ["../mfe-utils/angular/dist/mfe-utils-angular"]
     }
   }
 }

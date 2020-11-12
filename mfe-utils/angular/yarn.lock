@@ -1104,6 +1104,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@codeblaze/mfe-utils-core@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@codeblaze/mfe-utils-core/-/mfe-utils-core-1.0.0.tgz#20bd4b42c11dc1c0e930e7dc8c3067b0fbb3b266"
+  integrity sha512-+7lZy+MCPDNn2nrGp+U4WV68TFVhJrSA9bx2MT3PoJ1DVsgySwxeYzGfsYBY+ZY6IEEYrmtIyQ5+P3H5nCoJ5g==
+
 "@istanbuljs/schema@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"

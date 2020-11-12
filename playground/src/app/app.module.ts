@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { ApplicationRef, DoBootstrap, NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
+import { MfeUtilsModule } from '@codeblaze/mfe-utils-angular';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,9 +9,15 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MfeUtilsModule.forRoot({
+      bundles: [{
+        url: "http://localhost:3200/main.js"
+      }]
+    })
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
