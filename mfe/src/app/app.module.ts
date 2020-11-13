@@ -10,9 +10,6 @@ import { createCustomElement } from '@angular/elements';
   imports: [
     BrowserModule
   ],
-  entryComponents: [
-    HelloWorldComponent
-  ],
   providers: [],
   bootstrap: []
 })

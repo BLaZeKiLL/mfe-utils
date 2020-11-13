@@ -1,6 +1,9 @@
 {
   "name": "@codeblaze/mfe-utils-angular",
   "version": "1.0.0",
+  "keywords": ["micro frontends", "angular"],
+  "author": "codeblaze",
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^10.2.0",
     "@angular/core": "^10.2.0"

@@ -9,9 +9,9 @@
     "prepack": "yarn run build",
     "prepublish": "yarn run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["micro frontends"],
+  "author": "codeblaze",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.0.3"
   },
